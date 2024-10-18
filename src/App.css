@@ -1,0 +1,40 @@
+/* src/App.css */
+
+.App {
+  text-align: center; /* Centra el texto en el contenedor */
+  margin: 20px; /* Espaciado alrededor del contenedor */
+}
+
+h1 {
+  color: #333; /* Color del título */
+}
+
+form {
+  margin-bottom: 20px; /* Espacio debajo del formulario */
+}
+
+input[type="text"] {
+  padding: 10px; /* Espaciado interno */
+  width: 300px; /* Ancho del campo de texto */
+  border: 1px solid #ccc; /* Borde del campo de texto */
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+button {
+  padding: 10px 15px; /* Espaciado interno del botón */
+  margin: 5px; /* Espacio entre botones */
+  background-color: #007bff; /* Color de fondo */
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s; /* Transición suave para el cambio de color */
+}
+
+button:hover {
+  background-color: #0056b3; /* Color de fondo al pasar el mouse sobre el botón */
+}
+
+.error {
+  color: red; /* Color del mensaje de error */
+}
